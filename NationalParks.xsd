@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
-		   xs:noNamespaceSchemaLocation="NationalParks.xsd">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
 	<!-- Root element: NationalParks -->
 	<xs:element name="NationalParks">
@@ -8,9 +7,9 @@
 			<xs:sequence>
 				<!-- One or more NationalPark elements -->
 				<xs:element name="NationalPark" type="NationalParkType" maxOccurs="unbounded"/>
-					</xs:sequence>
-						</xs:complexType>
-							</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 
 	<!-- Definition of Elements -->
 	<xs:complexType name="NationalParkType">
@@ -22,8 +21,8 @@
 			<!-- Address Element -->
 			<xs:element name="Address" type="AddressType"/>
 		</xs:sequence>
-		
-		
+
+
 		<!-- Rating: optional attribute on NationalPark -->
 		<xs:attribute name="Rating" type="xs:decimal" use="optional"/>
 	</xs:complexType>
@@ -38,7 +37,7 @@
 			<xs:element name="State"   type="xs:string"/>
 			<xs:element name="Zip"     type="xs:string"/>
 		</xs:sequence>
-		
+
 		<!-- NearestAirport to Park Element-->
 		<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
 	</xs:complexType>
