@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+	<!--1. Grand Canyon National Park-->
+	<NationalPark Rating="4.9">
+		<Name>Grand Canyon</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>866-499-2574</Phone>
+		<Phone>888-297-2757</Phone>
+		<Address NearestAirport = "Flagstaff">
+			<Number>8</Number>
+			<Street>5 Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+
+	<!--2. Yellowstone National Park-->
+	<NationalPark Rating="4.8">
+		<Name>Yellowstone</Name>
+		<Phone>307-344-7381</Phone>
+		<Address NearestAirport ="Bozeman Yellowstone International Airport">
+			<Number>114</Number>
+			<Street>Albright Ave</Street>
+			<City>Yellowstone National</City>
+			<State>WY</State>
+			<Zip>82190</Zip>
+		</Address>
+	</NationalPark>
+
+	<!--3. Death Valley National Park-->
+	<NationalPark Rating="4.7">
+		<Name>Death Valley</Name>
+		<Phone>760-786-3200</Phone>
+		<Address NearestAirport ="Harry Reid International Airport">
+			<Number>328</Number>
+			<Street>Greenland Blvd</Street>
+			<City>Death Valley</City>
+			<State>CA</State>
+			<Zip>92328</Zip>
+		</Address>
+	</NationalPark>
+
+	<!--4. Wrangel-St.Elias National Park-->
+	<NationalPark Rating="4.8">
+		<Name>Wrangel-St.Elias</Name>
+		<Phone>907-822-5234</Phone>
+		<Address NearestAirport ="Ted Stevens Anchorage International Airport">
+			<Number>106</Number>
+			<Street>Richardson Highway</Street>
+			<City>Copper Center</City>
+			<State>AK</State>
+			<Zip>99573</Zip>
+		</Address>
+	</NationalPark>
+
+	<!--5. Gates of the Arctic National Park-->
+	<NationalPark Rating="4.8">
+		<Name>Gates of the Arctic</Name>
+		<Phone>907-457-5752</Phone>
+		<Phone>907-459-3730</Phone>
+		<Address NearestAirport ="Fairbanks International Airport">
+			<Number>101</Number>
+			<Street>Drunkel Streetd</Street>
+			<City>Fairbanks</City>
+			<State>AK</State>
+			<Zip>99701</Zip>
+			
+	</NationalPark>
+
+	<!--6. Denali National Park-->
+	<NationalPark Rating="4.8">
+		<Name>Denali</Name>
+		<Phone>907-683-9532</Phone>
+		<Address NearestAirport ="Fairbanks International Airport">
+			<Number>3</Number>
+			<Street>Denali Park Rd</Street>
+			<City>Denali Park</City>
+			<State>AK</State>
+			<Zip>99755</Zip>
+		</Address>
+	</NationalPark>
+
+	<!--7. Everglades National Park-->
+	<NationalPark Rating="4.7">
+		<Name>Everglades</Name>
+		<Phone>305-242-7700</Phone>
+		<Address NearestAirport ="Miami International Airport">
+			<Number>4001</Number>
+			<Street>State Road 9336</Street>
+			<City>Homestead</City>
+			<State>FL</State>
+			<Zip>33034</Zip>
+		</Address>
+	</NationalPark>
+
+	<!--8. Haleakala National Park-->
+	<NationalPark Rating="4.8">
+		<Name>Haleakala</Name>
+		<Name>Duplicate Name</Name>
+		<Phone>808-572-4400</Phone>
+		<Address NearestAirport ="Kahului International Airport">
+			<Number>30,000</Number>
+			<Street>Haleakala</Street>
+			<City>Kula</City>
+			<State>HI</State>
+			<Zip>96790</Zip>
+		</Address>
+	</NationalPark>
+
+	<!--9. Hawai'i National Park-->
+	<NationalPark Rating="4.8">
+		<Name>Hawai'i</Name>
+		<Phone>808-985-6000</Phone>
+		<Address NearestAirport ="Hilo International Airport">
+			<Number>1</Number>
+			<Street>HCrater Rim Drive</Street>
+			<City>Hawaii National Park</City>
+			<State>HI</State>
+			<Zip>96718</Zip>
+		</Address>
+	</NationalPark>
+
+	<!--10. Saguaro National Park-->
+	<NationalPark Rating="4.8">
+		<Name>Saguaro</Name>
+		<Phone>520-733-5153</Phone>
+		<Address>
+			<Number>3693</Number>
+			<Street>South Old Spanish Trail</Street>
+			<City>Tucson</City>
+			<State>AZ</State>
+			<Zip>85730</Zip>
+		</Address>
+	</NationalPark>
+</NationalPark>
