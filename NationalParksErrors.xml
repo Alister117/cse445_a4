@@ -1,6 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+	xsi:noNamespaceSchemaLocation="https://alister117.github.io/cse445_a4/NationalParks.xsd">
+	
 	<!--1. Grand Canyon National Park-->
 	<NationalPark Rating="4.9">
 		<Name>Grand Canyon</Name>
@@ -9,7 +10,7 @@
 		<Phone>888-297-2757</Phone>
 		<Address NearestAirport = "Flagstaff">
 			<Number>8</Number>
-			<Street>5 Entrance Road</Street>
+			<Street>Entrance Road</Street>
 			<City>Grand Canyon</City>
 			<State>AZ</State>
 			<Zip>86023</Zip>
@@ -62,7 +63,7 @@
 		<Phone>907-459-3730</Phone>
 		<Address NearestAirport ="Fairbanks International Airport">
 			<Number>101</Number>
-			<Street>Drunkel Streetd</Street>
+			<Street>Drunkel Street</Street>
 			<City>Fairbanks</City>
 			<State>AK</State>
 			<Zip>99701</Zip>
@@ -101,7 +102,7 @@
 		<Name>Duplicate Name</Name>
 		<Phone>808-572-4400</Phone>
 		<Address NearestAirport ="Kahului International Airport">
-			<Number>30,000</Number>
+			<Number>30000</Number>
 			<Street>Haleakala</Street>
 			<City>Kula</City>
 			<State>HI</State>
@@ -111,11 +112,11 @@
 
 	<!--9. Hawai'i National Park-->
 	<NationalPark Rating="4.8">
-		<Name>Hawai'i</Name>
+		<Name>Hawaii</Name>
 		<Phone>808-985-6000</Phone>
 		<Address NearestAirport ="Hilo International Airport">
 			<Number>1</Number>
-			<Street>HCrater Rim Drive</Street>
+			<Street>Crater Rim Drive</Street>
 			<City>Hawaii National Park</City>
 			<State>HI</State>
 			<Zip>96718</Zip>
